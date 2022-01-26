@@ -378,7 +378,7 @@ public class Calculadora extends javax.swing.JFrame {
         retorno=Float.toString(resultado);
         
         if(resultado%1==0){
-            retorno=retorno.substring(0, retorno.length()-2); //para que no me devuelva ceros me parece
+            retorno=retorno.substring(0, retorno.length()-2); //para que no me devuelva ceros
         }     
         return retorno;        
           }
